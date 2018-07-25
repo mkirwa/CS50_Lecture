@@ -14,3 +14,16 @@ int main(void){
 
     }
 }
+
+//program taking inputs and printing out their ascii codes
+
+int main(void){
+
+   string s = get_string("enter string: ");
+
+   for(int i=0; i<strlen(s); i++){
+
+       printf("%c %i\n",s[i],(int)s[i]);
+
+    }
+}
