@@ -28,7 +28,7 @@ int main(void){
     }
 }
 
-//Programing changing lowercases to upper cases
+//program changing lowercases to upper cases
 
 int main(void){
 
@@ -47,3 +47,18 @@ int main(void){
     }
     printf("\n");
 }
+
+
+int main(int argc, string argv[]){
+
+   if(argc==2){
+      printf("hello, %s\n",argv[1]);
+   }
+   else{
+      printf("hello world\n");
+   }
+
+
+}
+
+
