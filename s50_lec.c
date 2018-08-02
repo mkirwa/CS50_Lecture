@@ -61,4 +61,16 @@ int main(int argc, string argv[]){
 
 }
 
+//A program to pick initials from a string name
+
+int main(void){
+
+  string name = get_string("name: ");
+  char initial[4];
+  counter = 0;
+
+  for(int i=0; )
+
+
+}
 
