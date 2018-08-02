@@ -63,14 +63,29 @@ int main(int argc, string argv[]){
 
 //A program to pick initials from a string name
 
+//A program to pick initials from a string name
+//e.g Mahlon Kirwa will be M K
 int main(void){
 
-  string name = get_string("name: ");
-  char initial[4];
-  counter = 0;
+         string name = get_string("name: ");
+         //creates a space for 4 characters 3 characters from the user and the fourth character /o that
+         //shows the end input
+         char initials[4];
 
-  for(int i=0; )
+         int counter = 0;
+
+         for(int i=0; i<strlen(name); i++){
+            if(isupper(name[i])){
+               initials[counter]=name[i];
+               counter++;
+            }
+
+            initials[counter]='\0';
+            printf("%s\n",initials);
+         }
 
 
 }
+
+
 
