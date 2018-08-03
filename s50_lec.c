@@ -87,5 +87,30 @@ int main(void){
 
 }
 
+//A progam with a function to add two sums.
+//introduction to recurssion 
+
+int main(void){
+
+        int num;
+
+        do{
+           num = get_int("positive integet: ");
+        }
+        while(n<1);
+
+        int answer = sigma(num);
+        printf("%i",answer);
+
+}
+
+int sigma(int m){
+   int m = 0;
+   for(int i=0; i<=m; i++){
+     int sum+=i;
+   }
+   return sum;
+}
+
 
 
