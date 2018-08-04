@@ -15,7 +15,6 @@ int main(void){
     }
 }
 
-
 //program taking inputs and printing out their ascii codes
 
 int main(void){
@@ -28,7 +27,6 @@ int main(void){
 
     }
 }
-
 
 //program changing lowercases to upper cases
 
@@ -50,7 +48,6 @@ int main(void){
     printf("\n");
 }
 
-
 int main(int argc, string argv[]){
 
    if(argc==2){
@@ -62,9 +59,6 @@ int main(int argc, string argv[]){
 
 
 }
-
-
-//A program to pick initials from a string name
 
 //A program to pick initials from a string name
 //e.g Mahlon Kirwa will be M K
