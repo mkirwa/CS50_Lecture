@@ -99,7 +99,8 @@ int main(void){
            num = get_int("positive integer: ");
         }
         //While the input is not a positive integer, ask the user for a positive integer.
-        //That's how the while works. While the number entered is less than 
+        //That's how the while works. While the number entered is not a positive integer, 
+        // continue asking the user for a positive integer. 
         while(num<1);
 
         int answer = sigma(num);
