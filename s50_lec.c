@@ -15,6 +15,7 @@ int main(void){
     }
 }
 
+
 //program taking inputs and printing out their ascii codes
 
 int main(void){
@@ -27,6 +28,7 @@ int main(void){
 
     }
 }
+
 
 //program changing lowercases to upper cases
 
@@ -60,6 +62,7 @@ int main(int argc, string argv[]){
 
 }
 
+
 //A program to pick initials from a string name
 //e.g Mahlon Kirwa will be M K
 int main(void){
@@ -83,7 +86,6 @@ int main(void){
 
 
 }
-
 
 //A progam with a function to add two sums.
 //introduction to recurssion 
