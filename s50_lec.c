@@ -15,7 +15,6 @@ int main(void){
     }
 }
 
-
 //program taking inputs and printing out their ascii codes
 
 int main(void){
