@@ -133,8 +133,9 @@ int main(void){
     }
     while(n<0);
 
+    //prints out rows
     for(int i=0;i<n;i++){
-
+        //prints out columns
         for(int j=0;j<n;j++){
             printf(" # ");
         }
