@@ -22,7 +22,7 @@ int main(void){
    string s = get_string("enter string: ");
 
    for(int i=0; i<strlen(s); i++){
-
+      //putting the int before the s[i] is referred to as type casting 
        printf("%c %i\n",s[i],(int)s[i]);
 
     }
