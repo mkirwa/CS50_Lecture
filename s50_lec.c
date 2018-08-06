@@ -35,7 +35,8 @@ int main(void){
 
    string s = get_string("enter string: ");
 
-
+   //saves time. with the comma, the program does not have to go check 
+   //the length of the string every time the program is running
    for(int i=0, n=strlen(s); i<n; i++){
 
       if(s[i]>='a'&& s[i]<='z'){
