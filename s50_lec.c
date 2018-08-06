@@ -36,7 +36,7 @@ int main(void){
    string s = get_string("enter string: ");
 
 
-   for(int i=0; i<strlen(s); i++){
+   for(int i=0; n=strlen(s); i<n; i++){
 
       if(s[i]>='a'&& s[i]<='z'){
        printf("%c",s[i]-('a'-'A'));
@@ -49,6 +49,7 @@ int main(void){
     printf("\n");
 }
 
+//Main program taking in two arguments
 int main(int argc, string argv[]){
 
    if(argc==2){
