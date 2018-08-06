@@ -146,6 +146,18 @@ int main(void){
 
 }
 
+//program to count the number of characters in a string
+
+int main(void){
+  string s = get_string("Name: ");
+  int n = 0;
+  while(s[n]!='\0')
+  {
+    n++;
+  }
+  printf("%i\n");
+}
+
 
 
 
