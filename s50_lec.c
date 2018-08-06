@@ -131,7 +131,7 @@ int main(void){
         n = get_int("enter the square of bricks you want: ");
 
     }
-    while(n<0);
+    while(n<=0);
 
     //prints out rows
     for(int i=0;i<n;i++){
