@@ -117,3 +117,32 @@ int sigma(int m){
    return sum;
 }
 
+
+//A progam printing out bricks
+int sigma(int m);
+
+int main(void){
+
+    int n;
+
+    //get a positive integer
+    do {
+
+        n = get_int("enter the square of bricks you want: ");
+
+    }
+    while(n<0);
+
+    for(int i=0;i<n;i++){
+
+        for(int j=0;j<n;j++){
+            printf(" # ");
+        }
+        printf("\n");
+    }
+
+}
+
+
+
+
