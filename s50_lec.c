@@ -50,6 +50,7 @@ int main(void){
     printf("\n");
 }
 
+
 //Main program taking in two arguments
 int main(int argc, string argv[]){
 
