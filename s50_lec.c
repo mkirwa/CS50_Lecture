@@ -82,8 +82,10 @@ int main(void){
             }
 
             initials[counter]='\0';
-            printf("%s\n",initials);
+            
          }
+
+         printf("%s\n",initials);
 
 
 }
